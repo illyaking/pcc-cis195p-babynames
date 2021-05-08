@@ -90,26 +90,8 @@ fclose($file);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Popular Names</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="includes/names.css.php">
     <style>
-        body {
-            margin-bottom: 30px;
-        }
-        table {
-            width: 100%;
-            border: 1px solid black;
-            border-spacing: 0px;
-        }
-        td, th {
-            border: 1px solid black;
-            text-align: center;
-            font-family: "Palatino Linotype", Baskerville, serif;
-        }
-        h1 {
-            text-align: center;
-            font-family: "Palatino Linotype", Baskerville, serif;
-            padding-bottom: 10px;
-        }
     </style>
 </head>
 <body>

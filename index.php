@@ -16,36 +16,7 @@ require_once 'includes/form.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Popular Babynames</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <style>
-        img {
-            height: 350px;
-            float: right;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px rgba(0,0,0,.5);
-            margin-right: 60px;
-        }
-        input[type=submit] {
-            background-color: #FDF0F2;
-            border: 1px solid #F6B6BD;
-            color: #000000;
-            padding: 15px 32px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px rgba(0,0,0,.5);
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px 10px 60px;
-            cursor: pointer;
-        }
-        input[type=submit]:hover {
-            background-color: #F6B6BD;
-            border: 1px solid #F6B6BD;
-            color: #ffffff;
-            box-shadow: 0px 0px 0px;
-        }
-  </style>
+    <link rel="stylesheet" type="text/css" href="includes/names.css.php">
 </head>
 <body>
 <img src="images/adele-morris-unsplash.jpg" alt="New born baby Photos by Adele Morris Photography ">

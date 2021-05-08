@@ -1,9 +1,7 @@
-/*
-File Name: style.css
-Date: 09/25/18
-Programmer: Illya King
-*/
-
+<?php
+header('Content-Type: text/css');
+require_once ('constants.php');
+?>
 html {
     padding-top: 25px;
     background-image: url('images/bg_page.png');
@@ -13,6 +11,7 @@ body {
     width: 80%;
     padding: 20px;
     margin: 0 auto;
+    margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,.5);
     background-color: #e1edeb;
@@ -72,4 +71,52 @@ h2 {
     font-size: 1.2em;
     margin-left: 0;
     margin-bottom: 25px;
+}
+
+img {
+    height: 350px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    margin-right: 60px;
+    }
+
+input[type=submit] {
+    background-color: #FDF0F2;
+    border: 1px solid #F6B6BD;
+    color: #000000;
+    padding: 15px 32px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 10px 60px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #F6B6BD;
+    border: 1px solid #F6B6BD;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Palatino Linotype", Baskerville, serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Palatino Linotype", Baskerville, serif;
+    padding-bottom: 10px;
 }
